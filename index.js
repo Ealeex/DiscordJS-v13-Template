@@ -1,6 +1,6 @@
 // Discord Bot Template - Switch Statement v13
 // Made by: Ethan Lee | Made on: 8.28.2021
-// Github: https://github.com/Ealeex/DiscordBotTemplate-SwitchStatement
+// Github: https://github.com/Ealeex/DiscordJSv13-BotTemplate_SwitchFormat
 
 const { Client, Intents } = require('discord.js');
 const client = new Client({disableEveryone: true, autoReconnect: true, intents:[Intents.FLAGS.GUILDS]});
