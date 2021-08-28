@@ -1,6 +1,6 @@
 // Discord Bot Template - Switch Statement v13
 // Made by: Ethan Lee | Made on: 8.28.2021
-// Github: https://github.com/Ealeex/DiscordJSv13-BotTemplate_SwitchFormat
+// Github: https://github.com/Ealeex/DiscordBotTemplate-SwitchStatement
 
 const { Client, Intents } = require('discord.js');
 const client = new Client({disableEveryone: true, autoReconnect: true, intents:[Intents.FLAGS.GUILDS]});
@@ -9,7 +9,7 @@ client.startTime = Date.now();
 
 console.clear();
 client.on('ready', async () => {
-    client.user.setActivity(`Serving ${client.guilds.cache.size} servers. | ${client.config.prefix}help | Made by L33`);
+    client.user.setActivity(`Serving ${client.guilds.cache.size} servers. | Made by L33`);
     console.log(`[INVITE] - https://discordapp.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot`);
     const servers = client.guilds.cache.map(guild => `\n\t> '${guild.name}' with with ${guild.memberCount}`);
     console.log(`[INFO] - ${client.user.username} is online in ${client.guilds.cache.size} servers: ${servers}.`);
@@ -24,7 +24,7 @@ client.on('interactionCreate', async interaction => {
 
             case 'ping':
                 await interaction.reply(":question:  **Ping?**");
-                return interaction.editReply(`:ping_pong:  **Pong! Latency is ${msg.createdTimestamp - message.createdTimestamp}ms.**`);
+                return interaction.editReply(`:ping_pong:  **Pong!**`);
 
         }
     }
