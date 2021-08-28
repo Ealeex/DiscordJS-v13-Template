@@ -40,7 +40,7 @@ Commands to be deployed need to be added to the deploy-commands.js file. There i
 
 You need to make sure that your bot has the 'applications.commands' scope authorized.\
 Fill in the clientID and go to this link here:\
-'https://discord.com/api/oauth2/authorize?client_id=[CLIENTID]&scope=applications.commands'
+'https://discord.com/api/oauth2/authorize?client_id=[CLIENTIDHERE]&permissions=0&scope=applications.commands%20bot'
 
 Finally, run the deployment script.
 
