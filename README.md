@@ -29,11 +29,11 @@ Open the config.json file and add a token for a bot from the [Discord Developer 
 
 # Command Deployment
 
-Once the libraries are installed, you will need to deploy the commands that will be utilized in the bot.
-Commands to be deployed need to be added to the deploy-commands.js file. There is an example in the file.
-Once all of the commands are ready to be deployed. You need to make sure that your bot has the 'applications.commands' scope authorized.
-Fill in the clientID and go to this link here: 'https://discord.com/api/oauth2/authorize?client_id=[YOUR BOT ID]&scope=applications.commands'
-Finally, run the deployment script.
+Once the libraries are installed, you will need to deploy the commands that will be utilized in the bot.\
+Commands to be deployed need to be added to the deploy-commands.js file. There is an example in the file.\
+Once all of the commands are ready to be deployed. You need to make sure that your bot has the 'applications.commands' scope authorized.\
+Fill in the clientID and go to this link here: 'https://discord.com/api/oauth2/authorize?client_id=[YOUR BOT ID]&scope=applications.commands'\
+Finally, run the deployment script.\
 
 ```bash
 node ./deploy_commands.js
