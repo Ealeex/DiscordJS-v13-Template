@@ -4,12 +4,6 @@ This is a template bot for the DiscordJS v13 library.\
 This specific template is based off switch statements.\
 These templates are meant to be beginner friendly.
 
-## Template Navigation
-The [If]() template uses if statements to select commands.\
-The [Switch](https://github.com/Ealeex/DiscordJSv13-BotTemplate_SwitchFormat) template uses switch statements to select commands.\
-The [Object]() template uses an object to store commands and meta data.\
-The [FileSystem]() template uses files to store commands and meta data.
-
 ## Setup
 
 Download the files into a folder and open bash from the folder's directory.\
