@@ -3,7 +3,7 @@
 This is a template bot for the DiscordJS v13 library.\
 This specific template is based off switch statements.\
 These templates are meant to be beginner friendly.\
-DiscordJS requires Node v16 or newer.
+DiscordJS requires Node v16.6.0 or newer.
 
 ## Setup
 
