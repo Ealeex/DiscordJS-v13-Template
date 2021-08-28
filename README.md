@@ -16,7 +16,8 @@ npm install
 
 ## Configuration
 
-Open the config.json file and add a token for a bot from the [Discord Developer Portal](https://discordapp.com/developers/applications/).
+Fill out the config.json with all of the information needed.
+Get the token for your bot from the [Discord Developer Portal](https://discordapp.com/developers/applications/).
 
 ```json
 {
