@@ -50,8 +50,13 @@ node ./deploy_commands.js
 
 To run the bot, open bash and run the code.
 
-```
+```bash
 node .\index.js
+```
+
+You should get this output.
+
+```
 [INVITE] - https://discordapp.com/api/oauth2/authorize?client_id=examplebotid&permissions=8&scope=bot
 [INFO] - ExampleBot is online in 1 servers:
         > 'Example Server' with Owner 'ExampleUser#1234' with 12 users,
@@ -59,7 +64,8 @@ node .\index.js
 [STATUS] - ExampleBot loaded in 300ms
 ```
 
-Click the supplied link to invite the bot to your server.
+Click the supplied link to invite the bot to your server.\
+Congrats! You now have a working bot!
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
