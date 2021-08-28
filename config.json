@@ -1,4 +1,7 @@
 {
-    "token"       : "",
-    "prefix"      : ""
+    "token"           : "",
+    "prefix"          : "",
+    "clientID"        : "",
+    "guildID"         : "",
+    "deployLocalMode" : true
 }
