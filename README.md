@@ -64,7 +64,6 @@ You should get this output.
 [STATUS] - ExampleBot loaded in 300ms
 ```
 
-Click the supplied link to invite the bot to your server.\
 Congrats! You now have a working bot!
 
 ## Contributing
