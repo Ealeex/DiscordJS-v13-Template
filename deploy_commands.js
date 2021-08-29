@@ -17,6 +17,7 @@ const commands = [
 
 const rest = new REST({ version: '9' }).setToken(token);
 (async () => {
+	console.clear()
 	try {
 		console.log(`[Deployment] - Starting deployment in ${deployLocalMode?'Local':'Global'} mode.`);
 		if(deployLocalMode) await rest.put(Routes.applicationGuildCommands(clientID, guildID), { body: commands });
