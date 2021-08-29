@@ -10,7 +10,7 @@ const { token, clientID, guildID, deployLocalMode } = require('./config.json');
 // Commands
 const commands = [
 
-	new SlashCommandBuilder().setName('ping').setDescription('Replies with pong!'), // Ping Command Example
+	new SlashCommandBuilder().setName('ping').setDescription('Replies with pong!')
 	// Make new commands here!
 
 ].map(command => command.toJSON());
