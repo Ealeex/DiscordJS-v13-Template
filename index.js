@@ -7,6 +7,7 @@ const client = new Client({disableEveryone: true, autoReconnect: true, intents:[
 client.config = require('./config.json');
 client.startTime = Date.now();
 
+// Ready Event: Emitted when the bot is online.
 console.clear();
 client.on('ready', async () => {
     client.user.setActivity(`Serving ${client.guilds.cache.size} servers. | Made by L33`);
@@ -17,6 +18,7 @@ client.on('ready', async () => {
     console.log(`[STATUS] - ${client.user.username} loaded in ${Date.now() - client.startTime}ms.`);
 });
 
+// Interaction Event: Emitted when someone uses a slash command.
 client.on('interactionCreate', async interaction => {
 
     if(interaction.isCommand()) {
