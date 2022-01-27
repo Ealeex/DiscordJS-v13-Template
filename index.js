@@ -24,6 +24,7 @@ client.on('interactionCreate', async interaction => {
     if(interaction.isCommand()) {
         switch(interaction.commandName) {
 
+            // Sends a message and then edits it. (Useful for telling if the bot is online and working.)
             case 'ping':
                 await interaction.reply(":question:  **Ping?**");
                 return interaction.editReply(`:ping_pong:  **Pong!**`);
